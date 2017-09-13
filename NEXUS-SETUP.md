@@ -4,7 +4,7 @@
 
 Mostly like this:
 
-https://docs.openshift.com/container-platform/3.5/dev_guide/app_tutorials/maven_tutorial.html
+https://docs.openshift.com/container-platform/3.6/dev_guide/app_tutorials/maven_tutorial.html
 
 ```
 oc new-app sonatype/nexus
