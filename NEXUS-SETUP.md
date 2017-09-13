@@ -2,9 +2,15 @@
 
 ## Deploy Nexus
 
-Mostly like this:
+See also https://docs.openshift.com/container-platform/3.6/dev_guide/app_tutorials/maven_tutorial.html
 
-https://docs.openshift.com/container-platform/3.6/dev_guide/app_tutorials/maven_tutorial.html
+It's good to have nexus in a sparate project, i.e. `ci`:
+
+```
+oc new-project ci
+```
+
+Here we deploy and configure nexus:
 
 ```
 oc new-app sonatype/nexus
