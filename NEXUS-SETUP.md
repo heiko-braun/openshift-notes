@@ -28,7 +28,9 @@ oc volumes dc/nexus --add \
 
 ### Configure Nexus Proxies
 
-http://nexus-myproject.192.168.64.3.nip.io/nexus
+NOTE: Your route may differ
+
+http://nexus-<PROJECT_NAME>.192.168.64.3.nip.io/nexus
 
 - User: admin
 - Pass: admin123
