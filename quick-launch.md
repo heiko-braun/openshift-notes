@@ -2,6 +2,7 @@
 
 ```
 oc new-app redhat-openjdk18-openshift~<REPO_URL> \
-	--context-dir=. \ 
+	--context-dir=. \
+	--build-env='ARTIFACT_DIR=artefacts' \ 
 	--build-env='MAVEN_ARGS=install -pl <MAVEN_MODULE|.>'
 ```
